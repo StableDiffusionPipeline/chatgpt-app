@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    /*user-select: none;*/
+
+    font-family: 'Inconsolata', monospace;
+}
+
+.message {
+    display: flex;
+}
+
+.message img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.message p {
+    margin-left: 6px;
+    display: inline-block;
+}
+
+/*
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        filter: blur(6px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+}
+*/
+
+.navbar {
+    background-color: #303030;
+
+    position: fixed;
+
+    padding-left: 6px;
+    height: 100vh;
+    width: 250px;
+    transition: 0.3s;
+}
+
+p {
+    color: white;
+}
+
+#chat {
+    background-color: #303030;
+
+    padding: 6px;
+
+    border-radius: 6px;
+
+    padding-right: 1%;
+
+    /*margin-top: 10px;*/
+    margin-bottom: 50px;
+    margin-left: 270px;
+}
+.message {
+    margin-top: 20px;
+
+    word-wrap: inherit;
+}
+
+#input-message {
+    position: fixed;
+
+    border-radius: 6px;
+
+    border: 0;
+    outline: none;
+
+    background-color: #505050;
+    color: #707070;
+
+    padding: 6px;
+
+    margin-left: 270px;
+    width: 83%;
+    bottom: 6px;
+
+    transition: 0.3s;
+}
+
+#input-message:hover {
+    color: #a0a0a0;
+}
+
+#input-message:focus {
+    color: #ffffff;
+}
+
+img {
+    border-radius: 6px;
+}
+
+.full-size {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color: #202020;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+button {
+    margin-top: 1vh;
+    margin-left: 1em;
+    padding: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: #800000;
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #b50000;
+}
+
+input[type='range'] {
+    width: 250px;
+}
